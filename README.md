@@ -1,8 +1,14 @@
-# VBA-challenge
+# Stock_Market_Data_Analysis_Using_VBA
 
-Hey there, this repository contains a file with screenshots of the results and my VBA script. 
+ 
+## Background
+You are well on your way to becoming a programmer and Excel expert! In this homework assignment, you will use VBA scripting to analyze generated stock market data.
 
-In the file of the screenshots there are only 3. Each screenshot shows rows 1-27 and columns A-R. I only included screenshots of the tops of the results because there are over 753,000 worth of data - taking individual screenshots seems incorrect. Nowhere in the instructions or in the grading rubric does it specifically outline if we are supposed to take screenshots to match the screenshots we are shown/given, or if we are supposed to screenshot 753,000+ rows of data.
-
-The BAS script file should open in Visual Studio, and it contains all code written for this project. It can be imported into Excel and run. I tried saving as simply VB Script and the file would not open. It does open in the BAS script file type. 
-
+## Instructions
+1. Create a script that loops through all the stocks for one year and outputs the following information:
+  - The ticker symbol
+  - Yearly change from the opening price at the beginning of a given year to the closing price at the end of that year.
+  - The percentage change from the opening price at the beginning of a given year to the closing price at the end of that year.
+  - The total stock volume of the stock.
+  - Add functionality to your script to return the stock with the "Greatest % increase", "Greatest % decrease", and "Greatest total volume".
+  - Make the appropriate adjustments to your VBA script to enable it to run on every worksheet (that is, every year) at once.
